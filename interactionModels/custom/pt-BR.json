@@ -1,0 +1,54 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "melhor linguagem",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "MelhorLinguagemIntent",
+          "slots": [
+            {
+              "name": "objetivo",
+              "type": "AMAZON.Language"
+            }
+          ],
+          "samples": [
+            "qual a melhor linguagem para {objetivo}",
+            "melhor para {objetivo}",
+            "melhor linguagem para {objetivo}",
+            "me diga qual a melhor linguagem para {objetivo}",
+            "qual a melhor linguagem"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "PiorLinguagemIntent",
+          "slots": [],
+          "samples": [
+            "qual a pior",
+            "me diga qual a pior",
+            "pior linguagem",
+            "qual a pior linguagem",
+            "pior"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "5"
+}
